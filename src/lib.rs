@@ -21,7 +21,7 @@ pub fn run() {
     };
 
     listen_to_channel(&guild_name, &channel_name, |sm| {
-        let prompt = "Please answer questions based on the below FAQ:
+        let prompt = "Please answer questions based on the below FAQ. Don't answer questions out of the scope:
 How do we compete with SSV or Obol?
 We don’t have to compete with them. We are here to work with staking providers (like Lido). They want to decentralize their node ops, and we will offer a unique way for them (and others) to do it with 8 ETH initiators.
 Can I post my content about ParaState in the community?
